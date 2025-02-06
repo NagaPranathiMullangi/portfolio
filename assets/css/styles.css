@@ -209,7 +209,7 @@ img {
   color: var(--first-color);
 }
 .home__img {
-  width: 200px; 
+  width: 400px; 
   height: 400px; 
   overflow: hidden;
   border-radius: 60%;
@@ -245,16 +245,16 @@ img {
 /* Adjust sizes for smaller screens */
 @media screen and (max-width: 768px) {
   .home__img {
-      width: 150px;
-      height: 150px;
+      width: 200px;
+      height: 200px;
   }
 }
 
 /* Adjust sizes for even smaller screens */
 @media screen and (max-width: 480px) {
   .home__img {
-      width: 100px;
-      height: 100px;
+      width: 150px;
+      height: 150px;
   }
 }
 
