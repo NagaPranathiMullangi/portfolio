@@ -569,3 +569,12 @@ img {
     width: 450px;
   }
 }
+@media (max-width: 768px) { /* Adjusts for smaller screens */
+  .work__container {
+    grid-template-columns: 1fr; /* Single column layout */
+  }
+
+  .work__text {
+    grid-column: span 1; /* Ensures text also takes full width */
+  }
+}
